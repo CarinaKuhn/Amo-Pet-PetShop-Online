@@ -11,8 +11,10 @@ footer a {
   height: 80px;
   width: auto;
 }
-.about__text{
-  text-align: justify; font-size: 1.5rem; margin-top: 120px;
+.about__text {
+  text-align: justify;
+  font-size: 1.5rem;
+  margin-top: 120px;
   padding: 130px;
 }
 #back-top {
@@ -32,14 +34,35 @@ footer a {
 .container-fluid {
   padding: 0;
 }
-.carousel-inner,
-.carousel-item img {
-  height: 700px;
-  width: 100%;
-  object-fit: cover;
-  border-radius: 50px;
+.carousel-inner {
+  height: 45em;
 }
 
+.baseSlide {
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slide1 {
+  background-image: url(../img/carousel/acessorios.jpg);
+}
+
+.slide2 {
+  background-image: url(../img/carousel/consultas.jpg);
+}
+
+.slide3 {
+  background-image: url(../img/carousel/banho-tosa.jpg);
+}
+
+.slide4 {
+  background-image: url(../img/carousel/frete.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: repeat;
+}
 .carousel-caption h5 {
   font-size: 80px;
   color: white;
@@ -139,4 +162,3 @@ footer a {
 .team .team-social a:hover {
   background: #222222;
 }
-
